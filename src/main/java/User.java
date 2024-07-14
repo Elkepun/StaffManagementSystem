@@ -3,10 +3,10 @@ public class User {
 		protected String name;
 		protected String password;
 		protected String email;
-		protected char phone;
+		protected int phone;
 		protected String occupation;
 		protected String language;
-		public User(String name, String password, String email, char phone, String occupation, String language) {
+
 			super();
 			this.name = name;
 			this.password = password;
@@ -33,10 +33,11 @@ public class User {
 		public void setEmail(String email) {
 			this.email = email;
 		}
-		public char getPhone() {
+
+		public int getPhone() {
 			return phone;
 		}
-		public void setPhone(char phone) {
+		public void setPhone(int phone) {
 			this.phone = phone;
 		}
 		public String getOccupation() {
