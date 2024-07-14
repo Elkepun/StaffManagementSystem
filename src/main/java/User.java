@@ -6,7 +6,7 @@ public class User {
 		protected int phone;
 		protected String occupation;
 		protected String language;
-		public User(String name, String password, String email, int phone, String occupation, String language) {
+
 			super();
 			this.name = name;
 			this.password = password;
@@ -33,6 +33,7 @@ public class User {
 		public void setEmail(String email) {
 			this.email = email;
 		}
+
 		public int getPhone() {
 			return phone;
 		}
