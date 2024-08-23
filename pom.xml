@@ -103,6 +103,7 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<outputDirectory>target/classes</outputDirectory>
 	</build>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
