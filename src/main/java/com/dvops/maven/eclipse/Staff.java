@@ -1,11 +1,11 @@
 package com.dvops.maven.eclipse;
 
-public class staff {
+public class Staff {
     private int id;
     private String name;
     private String department;
 
-    public staff(int id, String name, String department) {
+    public Staff(int id, String name, String department) {
         this.id = id;
         this.name = name;
         this.department = department;
